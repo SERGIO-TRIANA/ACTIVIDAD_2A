@@ -1,11 +1,4 @@
-import java.io.PrintStream;
-import java.util.Scanner;
-
-public class Ejer27 {
-
-    static PrintStream screen = System.out;
-    static Scanner keyboard = new Scanner(System.in);
-
+public class Ejer27 extends Base{
 
     public static void main(String[] args) {
     int birthdate_day = 0;
@@ -49,8 +42,8 @@ public class Ejer27 {
             if(birthdate_day<=22)
             {zodiac_sign="Cancer";}
         }
-    if(birthdate_month==7 || birthdate_month==8){
-        if(birthdate_day>=23 & birthdate_day<=22)
+    if(birthdate_month==7){
+        if(birthdate_day>=23)
         {zodiac_sign="Leo";}
         }
         if(birthdate_month==8){

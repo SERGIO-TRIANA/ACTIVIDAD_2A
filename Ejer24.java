@@ -1,9 +1,4 @@
-import java.io.PrintStream;
-import java.util.Scanner;
-
-public class Ejer24{
-    static PrintStream screen = System.out;
-    static Scanner keyboard = new Scanner(System.in);
+public class Ejer24 extends Base{
     public static void main(String[] args) {
     int height1 = 0;
     int height2 = 0;
@@ -23,9 +18,9 @@ public class Ejer24{
     if (height1<=height2 & height1<=height3){order_1 = height1;}
     if (height2<=height1 & height2<=height3){order_1 = height2;}
     if (height3<=height1 & height3<=height1){order_1 = height3;}
-    if (height1<=height3 & height1>=height2){order_2 = height1;}
+    if (height1<=height3 & height1>=height2){order_2 = height1;} 
     if (height2<=height1 & height2>=height3){order_2 = height2;}
-    if (height3<=height2 & height3<=height1){order_2 = height3;}
+    if (height3<=height2 & height3>=height1){order_2 = height3;}
     else{;}
     screen.println("El orden ascendente es primero: " + order_1 +" segundo: " + order_2 + " tercero: " + order_3);
         

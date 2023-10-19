@@ -1,10 +1,4 @@
-import java.io.PrintStream;
-import java.util.Scanner;
-
-public class Ejer25 {
-
-    static PrintStream screen = System.out;
-    static Scanner keyboard = new Scanner(System.in);
+public class Ejer25 extends Base{
 
     public static void main(String[] args) {
     int height1 = 0;

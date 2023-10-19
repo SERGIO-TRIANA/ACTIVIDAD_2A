@@ -1,9 +1,4 @@
-import java.io.PrintStream;
-import java.util.Scanner;
-
-public class Ejer26 {
-    static PrintStream screen = System.out;
-    static Scanner keyboard = new Scanner((System.in));
+public class Ejer26 extends Base{
 
     public static void main(String[] args) {
     long cell_phone_number = 0;
